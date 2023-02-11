@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="/form.css">
+
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">DETAILS  FORM</h1>
+        <br>
+
+        <form method="post">
+
+            <div class="details personal">
+                <h2 style="text-align: center;">Personal Details</h2>
+                <br>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Date of Birth</label>
+                        <input type="date" placeholder="Enter birth date" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Email</label>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Mobile Number</label>
+                        <input type="number" placeholder="Enter mobile number" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Gender</label>
+                        <select name= "Gender"required>
+                            <option disabled selected>Select gender</option>
+                            <option value = 1>Male</option>
+                            <option value = 2>Female</option>
+                            <option value = 3>Others</option>
+                        </select>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Occupation</label>
+                        <input type="text" placeholder="Enter your ccupation" required>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="details ID">
+                <h2 style="text-align: center;">Physical Details</h2>
+
+                <div class="fields">
+                    <div class="input-field">
+                        <label>Age</label>
+                        <input type="text" placeholder="Enter Age" id="Age" name="Age" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Height</label>
+                        <input type="number" placeholder="Enter Height in cms" id="Height" name="Height" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Weigth</label>
+                        <input type="text" placeholder="Enter Weight in kg" id="Weight" name="Weight" required>
+                    </div>
+
+                    <div class="input-field">
+                        <label>Are any obese member in your family history </label>
+                        <select name = "FHWOW" required>
+                            <option disabled selected>Select number</option>
+                            <option value = 1>YES</option>
+                            <option value = 2>NO</option>
+                        </select>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <br>
+            <br>
+
+            <div class="details address">
+                <h2 style="text-align: center;">Food Details</h2>
+
+
+
+                <div class="input-field">
+                    <label>Junk food/ carbonated drinks consumed throughout the day</label>
+                    <select name = "NO_OF_MEALS" required>
+                        <option disabled selected>Select no. of meals</option>
+                        <option value = 0>0</option>
+                        <option value = 1>1</option>
+                        <option value = 2>2</option>
+                        <option value = 3>3</option>
+                        <option value = 4>>3</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label>Number of primary meals you have during the day</label>
+                    <select name = "PRIMARY_MEALS"required>
+                        <option disabled selected>Select no. of meals</option>
+                        <option value = 1 >1</option>
+                        <option value = 2>2</option>
+                        <option value = 3>3</option>
+                        <option value = 4>4</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label>Water consumption in number of litres </label>
+                    <select name = "WATERINTAKE" required>
+                        <option disabled selected>Select no. of litres</option>
+                        <option value = 1>1</option>
+                        <option value = 2>2</option>
+                        <option value = 3>3</option>
+                        <option value = 4>4</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label>Physical activity (in hours)</label>
+                    <select name = "FAF" required>
+                        <option disabled selected>Select no. of hours</option>
+                        <option value = 0 >0</option>
+                        <option value = 0.5>0.5</option>
+                        <option value = 1>1</option>
+                        <option value = 1.5>1.5</option>
+                        <option value = 1>2</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="buttons">
+
+                <button class="sumbit">
+                    <span class="btnText">Submit</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+            </div>
+    </div>
+
+    </div>
+
+    </form>
+    </div>
+
+    <script src="form.js"></script>
+</body>
+
+</html>

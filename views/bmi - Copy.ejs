@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="bmi.css">
+
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+</head>
+
+
+<body>
+    <BR><BR><BR><BR><BR><BR>
+    <h1>BODY MASS INDEX CALCULATOR</h1>
+    <form class="form" id="form" method = "post">
+        <div class="row-one">
+            <input type="text" class="text-input" id="age" autocomplete="off" required />
+            <p class="text">Age</p>
+            <label class="container">
+                <input type="radio" name="radio" id="f">
+                <p class="text">Female</p>
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">
+                <input type="radio" name="radio" id="m">
+                <p class="text">Male</p>
+                <span class="checkmark"></span>
+            </label>
+        </div>
+
+        <div class="row-two">
+            <input type="number" placeholder="Enter Height" id="Height" name="Height" required>
+            <p class="text">Height (cm)</p>
+            <input type="number" placeholder="Enter Weight" id="Weight" name="Weight" required>
+            <p class="text">Weight (kg)</p>
+        </div>
+        <button type="button" id="submit">Submit</button>
+    </form>
+    <script src="bmi.js"></script>
+</body>
+
+</html>
